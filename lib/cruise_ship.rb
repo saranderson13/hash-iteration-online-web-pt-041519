@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  passengers.each{ |suite, passenger| return passenger if suite == :suite_a && passenger.start_with?("A") }
+  passengers.each { |suite, passenger| return passenger if suite == :suite_a && passenger.start_with?("A") }
 end
